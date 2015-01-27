@@ -105,7 +105,7 @@ function htmlawed_tag_post_processor($element, $attributes = false) {
 		'font-weight', 'font-style', 'border', 'border-top', 'background-color',
 		'border-bottom', 'border-left', 'border-right',
 		'margin', 'margin-top', 'margin-bottom', 'margin-left',
-		'margin-right',	'padding', 'float', 'text-decoration'
+		'margin-right',	'padding', 'float', 'width', 'text-decoration'
 	);
 
 	$params = array('tag' => $element);
